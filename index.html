@@ -7,7 +7,7 @@
         .sidebar {
             position: fixed;
             width: 200px;
-            height: 80%;
+            height: 100%;
             background: #f8f9fa;
             left: 0;
             overflow: auto;
@@ -22,13 +22,17 @@
             background-color: #333;
             position: relative;
             z-index: 1;
-            padding: 14px 16px;
+            padding: 14px 32px;  /* Increase left and right padding */
         }
 
-        .navbar a {
+        .navbar a, .navbar span {
             color: #f2f2f2;
             text-align: center;
             text-decoration: none;
+        }
+
+        .navbar span {
+            margin-right: auto;  /* Push the other elements to the right */
         }
 
         .navbar a:hover {
@@ -48,6 +52,7 @@
 </div>
 
 <div class="navbar">
+  <span>Xingjian Ken Yan</span>
   <a href="cv.html">CV</a>
   <a href="research.html">Research</a>
   <a href="other.html">Other</a>
