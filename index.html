@@ -7,12 +7,18 @@
         .sidebar {
             position: fixed;
             width: 200px;
-            height: 80%;
+            height: 100%;
             background: #f8f9fa;
             left: 0;
             overflow: auto;
             padding: 20px;
             z-index: 0;
+        }
+
+        /* CSS code for the headshot image */
+        .sidebar img {
+            max-width: 100%;
+            max-height: 100%;
         }
 
         /* CSS code for navigation bar */
@@ -44,7 +50,7 @@
 <body>
 
 <div class="sidebar">
-    <img src="headshot.jpg" alt="Ken Yan" style="width:100px;height:120px;"> <!-- change with your photo -->
+    <img src="headshot.jpg" alt="Ken Yan"> <!-- change with your photo -->
     <p>Ken Yan</p>
     <a href="https://www.linkedin.com/in/xingjian-yan-5a3668184/">Linkedin</a> <!-- Change these with your social media links -->
     <a href="mailto:xy2077@nyu.edu">Email</a>
@@ -58,7 +64,7 @@
   <a href="other.html">Other</a>
 </div>
 
-<div style="margin-left:210px;padding:1px 16px;height:1000px;">
+<div style="margin-left:210px;margin-top:60px;padding:1px 16px;height:1000px;">
     <h1>Welcome!</h1>
     <p>I'm Ken Yan, and this is my personal website.</p>
     <p>You can also find me here at</p>
