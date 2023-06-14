@@ -1,8 +1,61 @@
-<p>Hello!</p>
-<p>I'm Ken Yan, and this is my personal website. </p>
-<p>Welcome! You can also find me here at</p>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ken Yan's Personal Website</title>
+    <style>
+        /* CSS code for side bar */
+        .sidebar {
+            position: fixed;
+            width: 200px;
+            height: 100%;
+            background: #f8f9fa;
+            left: 0;
+            overflow: auto;
+            padding: 20px;
+        }
 
-<ul>
-  <li><a href="https://www.linkedin.com/in/xingjian-yan-5a3668184/">LinkedIn</a></li>
-  <li><a href="cv.html">My CV</a></li> <!-- Add this line -->
-</ul>
+        /* CSS code for navigation bar */
+        .navbar {
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        .navbar a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .navbar a:hover {
+            background: #ddd;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+
+<div class="sidebar">
+    <img src="headshot.jpg" alt="Ken Yan" style="width:100px;height:120px;"> <!-- change with your photo -->
+    <p>Ken Yan</p>
+    <a href="https://www.linkedin.com/in/xingjian-yan-5a3668184/">Linkedin</a> <!-- Change these with your social media links -->
+    <a href="https://twitter.com/kenyan">Twitter</a>
+    <a href="https://github.com/kenyan">Github</a>
+</div>
+
+<div class="navbar">
+  <a href="cv.html">CV</a>
+  <a href="research.html">Research</a>
+  <a href="other.html">Other</a>
+</div>
+
+<div style="margin-left:210px;padding:1px 16px;height:1000px;">
+    <h1>Welcome!</h1>
+    <p>I'm Ken Yan, and this is my personal website.</p>
+    <p>You can also find me here at</p>
+</div>
+
+</body>
+</html>
